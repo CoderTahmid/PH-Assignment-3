@@ -142,7 +142,7 @@
           large windows that flood the space with natural light.
         </p>
         <div
-          class="w-[90%] bg-[#ABEF5F80] h-[52px] rounded-[32px] lg:w-[216px] mx-auto flex justify-center items-center py-3 px-6 border border-primary-color gap-2 mt-8 mb-[100px]">
+          class="w-[90%] bg-[#ABEF5F80] h-[52px] rounded-[32px] lg:w-[216px] mx-auto flex justify-center items-center py-3 px-6 border border-primary-color gap-2 mt-8 mb-[100px] hover:cursor-pointer">
           <span class="font-bold text-xl">View Details</span>
           <div
             class="flex justify-center items-center h-8 w-8 rounded-full border border-primary-color bg-primary-color mr-2">
@@ -298,16 +298,117 @@
         </div>
       </section>
 
+      <!-- latest Portfolio -->
+      <section class="lg:bg-white flex flex-col justify-center mb-8">
+        <button
+          class="hover:bg-gray-200 bg-[#ABEF5F33] text-[#494949] border-none rounded-3xl py-2 px-4 mx-auto mt-8 mb-4">
+          <i class="fa-light fa-arrow-right mr-2"></i>
+          <span class="font-bold">Explore our Latest works</span>
+        </button>
+
+        <h1 class="font-bold text-2xl text-center mb-4">
+          Our Latest Portfolio
+        </h1>
+
+        <p class="text-center w-[90%] mx-auto mb-4 lg:mb-8">
+          Take a look at our latest portfolio to see how we bring innovative
+          designs and infrastructure to life. Each project showcases our
+          commitment to quality, creativity, and excellence. We invite you to
+          explore our work and imagine the possibilities for your own project.
+        </p>
+
+        <!-- img section -->
+        <div class="lg:h-[580px] lg:w-[90%] mx-auto">
+          <div class="mb-4 lg:grid lg:grid-cols-3 gap-6">
+            <!-- card 1 -->
+            <div
+              class="p-6 bg-white w-[80%] rounded-2xl mx-auto flex flex-col justify-center border mb-4 lg:items-center lg:flex-row lg:col-span-2 lg:w-full">
+              <img src="assets/img1.png" alt="" class="mb-6 lg:mr-6" />
+              <div>
+                <h1 class="font-extrabold text-xl mb-4">Commercial</h1>
+                <p class="mb-5">
+                  Explore our latest commercial project, where we delivered
+                  exceptional results that left our clients highly satisfied.
+                </p>
+                <div class="flex items-center lg:hover:cursor-pointer">
+                  <p class="font-extrabold mr-2">View Details</p>
+                  <div
+                    class="flex justify-center items-center h-8 w-8 rounded-full border bg-primary-color">
+                    <i class="fa-light fa-arrow-up-right font-bold"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- img 1 -->
+            <div
+              class="p-5 h-[237px] w-[80%] bg-white border rounded-2xl mx-auto lg:w-full lg:h-[94%] lg:col-span-1">
+              <img src="assets/img2.png" alt="" class="w-full h-full rounded-xl" />
+            </div>
+          </div>
+
+          <div class="mb-4 lg:grid lg:grid-cols-4 lg:grid-rows-1 gap-6">
+            <!-- img 2 -->
+            <div
+              class="mb-4 p-5 h-[237px] w-[80%] bg-white border rounded-2xl mx-auto lg:w-full lg:h-[94%] lg:col-span-1">
+              <img
+                src="assets/img5.png"
+                alt=""
+                class="w-full h-full rounded-xl" />
+            </div>
+            <!-- card 2 -->
+            <div
+              class="p-6 bg-white w-[80%] rounded-2xl mx-auto flex flex-col justify-center border mb-4 lg:flex-row lg:col-span-2 lg:w-full">
+              <img src="assets/img4.png" alt="" class="mb-6 lg:mr-6" />
+              <div>
+                <h1 class="font-extrabold text-xl mb-4">Residential</h1>
+                <p class="mb-5">
+                  Explore our latest residential project, where we delivered
+                  exceptional results that left our clients highly satisfied.
+                </p>
+                <div class="flex items-center lg:hover:cursor-pointer">
+                  <p class="font-extrabold mr-2">View Details</p>
+                  <div
+                    class="flex justify-center items-center h-8 w-8 rounded-full border bg-primary-color">
+                    <i class="fa-light fa-arrow-up-right font-bold"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- img 3 -->
+            <div
+              class="p-5 h-[237px] w-[80%] bg-white border rounded-2xl mx-auto lg:w-full lg:h-[94%] lg:col-span-1">
+              <img
+                src="assets/img3.png"
+                alt=""
+                class="w-full h-full rounded-xl" />
+            </div>
+          </div>
+          <!-- img 4 -->
+          <div
+            class="p-5 h-[237px] w-[80%] bg-white border rounded-2xl mx-auto lg:w-full lg:h-full lg:col-span-1 lg:hidden">
+            <img
+              src="assets/img5.png"
+              alt=""
+              class="w-full h-full rounded-xl" />
+          </div>
+        </div>
+      </section>
+
       <!-- review section  -->
       <section class="mb-8">
-        <h1 class="font-bold text-2xl text-center mb-4 lg:text-3xl">Our Clients Review</h1>
-        <p class="text-center text-[#494949] text-[14px] mb-6 w-[90%] mx-auto lg:text-[18px]">
+        <h1 class="font-bold text-2xl text-center mb-4 lg:text-3xl">
+          Our Clients Review
+        </h1>
+        <p
+          class="text-center text-[#494949] text-[14px] mb-6 w-[90%] mx-auto lg:text-[18px]">
           Don’t just take our word for it—see what our clients have to say!
           Explore their reviews and discover why we’re a trusted partner for
           building exceptional structures.
         </p>
         <!-- review cards  -->
-        <div class="relative h-[750px] lg:border lg:w-[70%] lg:mx-auto lg:rounded-3xl lg:h-[410px]">
+        <div
+          class="relative h-[750px] lg:border lg:w-[70%] lg:mx-auto lg:rounded-3xl lg:h-[410px]">
           <!-- card 1 -->
           <div
             class="opacity-[100%] h-[200px] w-[200px] shadow-lg rounded-2xl bg-gray-200 top-4 left-[30px] absolute p-3 flex flex-col justify-center z-20 lg:left-[90px]">
@@ -366,7 +467,8 @@
               <h1 class="font-bold">Lionel Messi</h1>
             </div>
             <p class="w-[90%]">
-              The supervision and planning were top-notch. We love our new building!
+              The supervision and planning were top-notch. We love our new
+              building!
             </p>
           </div>
         </div>
@@ -413,7 +515,7 @@
             placeholder="Write your message here"
             class="p-5 w-full rounded-[32px] mx-auto h-[240px] mb-6 col-span-2 lg:row-span-2"></textarea>
           <div
-            class="bg-primary-color rounded-[32px] py-3 px-5 flex justify-center items-center gap-2 col-span-2 mb-8">
+            class="bg-primary-color rounded-[32px] py-3 px-5 flex justify-center items-center gap-2 col-span-2 mb-8 lg:hover:cursor-pointer">
             <button class="font-extrabold text-xl">Send Mail</button>
             <div
               class="bg-black flex justify-center items-center h-7 w-7 rounded-full">
